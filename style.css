@@ -18,10 +18,11 @@ a{
 
 /*  Navbar */
 .navbar{
-    margin: 8px 0px;
+    margin: 8px 10px;
 }
 
 .navbar-list{
+
     display: flex;
     justify-content: space-between;
 }
@@ -36,6 +37,7 @@ a{
     margin: 10px 0px;
 }
 .header-list{
+    margin: 0px 3px;
     display: flex;
     justify-content: flex-start;
 }
@@ -55,9 +57,59 @@ a{
 
 
 /* Section */
+.card-nav{
+    padding-bottom: 2px ;
+    width: 395px;
+    display: flex;
+    /* justify-content: space-between; */
+    /* border-bottom: 1px solid black ; */
+}
+.card-name{
+    display: flex;
+    margin: 0px 5px;
 
+}
+.usernameLocation{
+    margin: -1px 10px;
+}
+.username{
+    font-size: 14px;
+    font-weight: bold;
+}
+.location{
+    font-size: 12px;
+
+}
+
+
+.card-profileImg{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.three-dots{
+    margin: 0px 255px;
+}
 .dots-img{
-    width: 15px;
-    height: 15px;
-    
+    width: 25px;
+    height: 25px;
+
+}
+
+.card-img{
+    margin: 2px 4px;
+    width: 388px;
+    height: 400px;
+}
+.reactions{
+    width: 390px;
+}
+.reactions-list{
+    display: flex;
+    justify-content: space-between;
+}
+.reactions-icons{
+    width: 20px;
+    height: 20px;
+    margin: 5px;
 }

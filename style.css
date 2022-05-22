@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+.container{
+    width: 380px;
+}
+
+
+/*  Navbar */
+.navbar{
+    margin: 8px 0px;
+}
+
+.navbar-list{
+    display: flex;
+    justify-content: space-between;
+}
+.chat-img{
+    width: 16px;
+    height: 16px;
+}
+
+
+/*  Header */
+.header{
+    margin: 10px 0px;
+}
+.header-list{
+    display: flex;
+    justify-content: flex-start;
+}
+.header-item{
+    margin: 3px;
+    text-align: center;
+}
+.nickName{
+    font-size: 12px;
+}
+.header-img{
+    border: 2px solid red   ;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+
+/* Section */
+
+.dots-img{
+    width: 15px;
+    height: 15px;
+    
+}
